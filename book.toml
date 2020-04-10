@@ -6,4 +6,8 @@ src = "src"
 title = "Uni notes"
 
 [output.html]
-mathjax-support = true
+# mathjax-support = true
+
+[preprocessor.katex]
+command = "python katex.py"
+renderer = ["html"]
